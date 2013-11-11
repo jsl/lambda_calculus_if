@@ -19,7 +19,7 @@ fls = -> (_) { -> (y) { y } }
 # We now define a sequence of three nested lambdas corresponding to the
 # conditional test followed by lambdas representing the true and the false
 # "branches" in the conditional. Again this could have been represented as a
-# single lambda accepting three arguments, but keep the language as simple as
+# single lambda accepting three arguments, but to keep the language as simple as
 # possible and to demonstrate currying and higher-order functions we implement
 # the conditional by a series of one-argument lambdas.
 #
